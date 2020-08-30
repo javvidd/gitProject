@@ -27,3 +27,5 @@ git collaboration with gitHub
 
 Changes from GitHub
 >>>>>>> 5ca1983208db2b830e28d1c1b593c96ced9a51f9
+
+some more changes from github
