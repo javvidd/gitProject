@@ -22,7 +22,7 @@ search_text_box.send_keys("python selenium")
 
 search_text_box.send_keys(Keys.RETURN)  # replicates pushing enter button
 
-result = driver.find_element_by_xpath("//div[@id='result-stats']").text
+result = driver.find_element_by_xpath("//div[@id='result-stats']").text  # returns in txt format
 
 numbers = result.split()
 sec = float(numbers[3].replace('(', ''))
