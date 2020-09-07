@@ -27,7 +27,7 @@ describe_city("baku", "azerbaijan")
 describe_city("boston")
 describe_city("london", "england")
 
-
+# ________________ #
 # chapter 8-6
 def city_country(city, country):
     return f"\'{city}\', \'{country}\'"
