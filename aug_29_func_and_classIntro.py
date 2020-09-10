@@ -1,5 +1,5 @@
 #  functions continuation
-# 29 aug -- 1h done
+# 29 aug -- 1h20min done
 
 
 def full_name(first, last):
@@ -41,6 +41,12 @@ def find_num(x, y):
         else:
             print(f"yes we found {y}")
             break
+find_num(nums, 1)
 
+def desc_pizza(*toppings):
+    print("we hae only cheese pizza: ")
+    print(*toppings)
+desc_pizza("pepperoni", "reqular", "bbq")
 
-find_num(nums, int(input("enter your value: ")))
+print("hello", 45, ["john, doe"])
+
