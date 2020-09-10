@@ -1,5 +1,5 @@
 #  functions continuation
-# 29 aug -- 1h20min done
+# 29 aug -- 1h50min done
 
 
 def full_name(first, last):
