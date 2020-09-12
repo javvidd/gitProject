@@ -44,7 +44,7 @@ def find_num(x, y):
 find_num(nums, 1)
 
 def desc_pizza(*toppings):
-    print("we hae only cheese pizza: ")
+    print("we hav only cheese pizza: ")
     print(*toppings)
 desc_pizza("pepperoni", "reqular", "bbq")
 
