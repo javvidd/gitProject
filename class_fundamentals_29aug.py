@@ -10,8 +10,9 @@ class Dog():
 
     # behaviour, methods
     def bark(self):
+        print("wouf wouff!!")
 
-mydog = Dog  # mydog is the object of the class
+mydog = Dog()  # mydog is the object of the class
 
 mydog.breed = "german shepard"
 mydog.name = "Rex"
