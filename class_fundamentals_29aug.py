@@ -1,4 +1,5 @@
 # classes - chapter 9
+# class - general template, of certain real life objects
 # class name always should be capital letter
 
 
@@ -12,7 +13,13 @@ class Dog():
     def bark(self):
         print("wouf wouff!!")
 
-mydog = Dog()  # mydog is the object of the class
+# object is the instance (representation in specific case) of the class
+my_dog = Dog()  # mydog is the object of the class
+my_dog.breed = "german shepard"
+my_dog.name = "Rex"
+my_dog.bark()
 
-mydog.breed = "german shepard"
-mydog.name = "Rex"
+your_dog = Dog()
+your_dog.name = "vova"
+your_dog.breed = "french bulldog"
+your_dog.bark()
