@@ -59,3 +59,4 @@ dog4 = NewDog("hatiko", 5)
 dog4.bark()
 dog4.get_name()
 
+help(NewDog)
