@@ -1,5 +1,6 @@
 # 30 aug car class starts at 41min
-# 30 aug 1h|30min
+# 30 aug done
+# 30 aug classes - 1h.40min at 1h.35min explains exercises in chapter 9
 
 
 class Car():
@@ -42,3 +43,23 @@ class Car():
             print(f"incremented by additional {miles} miles")
         else:
             print(f"{miles} is a negative value, u cant roll back your odometer")
+
+
+class ElectricCar(Car):  # inheriting Car class
+    """ElectricCar inherits all features of Car() class"""
+
+    def __init__(self, make, model, year): # it called signature also
+        """child class constructor, can OVERRIDE the parent class constructor"""
+        super().__init__(make, model, year)  # calls the constructor of parent class
+        self.battery_size = 100
+        # self.make = make
+        # self.model = model
+
+    def get_description(self):  # overriding the parent method
+        msg = f"your car:\n\tmanufacturer: {self.make}\n\tmodel: {self.model}\n\tyear: {self.year}\n\tcolor: {self.color}\n\tBattery size: {self.battery_size}"
+        return msg
+
+    def tst_method(self):
+        print(self.get_description())  # current class get_description()/ with battery size
+        print(super().get_description())  # parent class get_description()
+
