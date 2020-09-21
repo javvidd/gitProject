@@ -1,5 +1,5 @@
 # exception (errors) handling
-# 03-Sep 2h
+# 03-Sep - Done
 
 
 def division(a, b):
